@@ -1,1 +1,19 @@
 @use 'helpers' as *;
+
+body {
+  @include fluid-text(21, 16);
+
+  font-family: var(--font-family-base);
+  letter-spacing: 0;
+  color: var(--color-light);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  color: var(--color-black);
+  font-weight: 600;
+}
