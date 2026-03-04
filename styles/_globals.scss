@@ -3,7 +3,7 @@
 body {
   @include fluid-text(21, 16);
 
-  font-family: var(--font-family-base);
+  font-family: var(--font-family-base), sans-serif;
   letter-spacing: 0;
   color: var(--color-light);
 }
